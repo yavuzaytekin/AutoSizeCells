@@ -12,6 +12,7 @@
 		D742D8AE2348E7CF00D1E73F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D742D8AC2348E7CF00D1E73F /* Main.storyboard */; };
 		D742D8B02348E7D000D1E73F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D742D8AF2348E7D000D1E73F /* Assets.xcassets */; };
 		D742D8B32348E7D000D1E73F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D742D8B12348E7D000D1E73F /* LaunchScreen.storyboard */; };
+		D742D8BB2348F89900D1E73F /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D742D8BA2348F89900D1E73F /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D742D8AF2348E7D000D1E73F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D742D8B22348E7D000D1E73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D742D8B42348E7D000D1E73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D742D8BA2348F89900D1E73F /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D742D8AF2348E7D000D1E73F /* Assets.xcassets */,
 				D742D8B12348E7D000D1E73F /* LaunchScreen.storyboard */,
 				D742D8B42348E7D000D1E73F /* Info.plist */,
+				D742D8BA2348F89900D1E73F /* ChatMessageCell.swift */,
 			);
 			path = AutoSizeCells;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D742D8BB2348F89900D1E73F /* ChatMessageCell.swift in Sources */,
 				D742D8AB2348E7CF00D1E73F /* ViewController.swift in Sources */,
 				D742D8A92348E7CF00D1E73F /* AppDelegate.swift in Sources */,
 			);
